@@ -1,0 +1,264 @@
+@media screen and (max-width:1024px)
+{
+    div#ranking {
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-flow: column;
+        background-color: white;
+        border-radius: 5px;
+
+        margin: 11vw 0vw 8vw 0vw;
+    }
+    div#rankinng_subject {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4vw;
+        padding: 4vw 0vw;
+    }
+
+    .rank_piece {
+        width: 100%;
+        margin-bottom: 0.5vw;
+    }
+    .ranking_form{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-right: 50px;
+        margin-bottom: 0.4vw;
+    }
+    #ad3 {
+        margin-top: 3vw;
+        width: 100%;
+        height: 20vw;
+        border: solid 1px black;
+        margin-bottom: 2vw;
+    }
+    /*-----------------------------------------
+    *   ランキング系
+    -------------------------------------------*/
+    .ranking {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        padding: 1vw;
+        padding-bottom: 2vw !important;
+        box-sizing: border-box;
+        background-color: #dee2e6;
+        margin-bottom: 1vw;
+        border-radius: 3px;
+    }
+    .ranking_subject {
+        margin-bottom: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(176, 80, 224, 0.74);
+        padding-bottom: 1vw;
+        box-sizing: border-box;
+        border-bottom: dotted 3px rgba(0, 0, 0, 0.18);
+        margin-bottom: 1vw;
+    }
+    .ranking-img {
+        height: 12vw;
+        width: 12vw;
+        object-fit: cover;
+    }
+    .rank_box {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-flow: column;
+        box-sizing: border-box;
+        padding: 0vw 5vw 2vw 5vw;
+    }
+    .ranking_form {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        height: auto;
+        flex-wrap: nowrap;
+    }
+    .ranking-ob {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: auto;
+        position:relative;
+    }
+    .ranking-value {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 13px;
+        padding-left: 12px;
+        overflow-wrap: anywhere;
+        overflow: hidden;
+    }
+    .ranking-num {
+        width: 16px;
+        height: 16px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .hidden-button {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+}
+ @media screen and (min-width:1024px)
+{
+    #side_bar {
+        width: 15vw !important;
+    }
+    div#strage_title {
+        width: 100%;
+        height: 3vw;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 1vw 0vw 0vw 2vw;
+        margin-bottom: 1vw;
+        font-size: 1.5vw;
+    }
+    .rank_box {
+        width: 100%;
+        height: 75%;
+        box-sizing: border-box;
+        padding: 1vw;
+    }
+    .rank_piece {
+        width: 100%;
+        margin-bottom: 0.5vw;
+    }
+    .addsense {
+        width: 11vw !important;
+        height: 11vw !important;
+    }   
+    .ranking_form{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-right: 50px;
+        margin-bottom: 0.4vw;
+    }
+    /*-------------------------------------
+    *   サイドバーのランキング関連
+    -------------------------------------*/
+    #side_bar {
+        width: 15vw !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: column;
+        height: auto;
+        border: unset;
+        background-color: #c4c0c0ff;
+    }
+    .ranking {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        padding: 1vw;
+        padding-bottom: 2vw !important;
+        box-sizing: border-box;
+        background-color: #dee2e6;
+        margin-bottom: 1vw;
+        border-radius: 3px;
+    }
+    .rank_chi {
+    }
+    .ranking_subject {
+        margin-bottom: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(176, 80, 224, 0.74);
+        padding-bottom: 1vw;
+        box-sizing: border-box;
+        border-bottom: dotted 3px rgba(0, 0, 0, 0.18);
+        margin-bottom: 1vw;
+    }
+    .ranking-img {
+        width: 3vw;
+        height: 3vw;
+        object-fit: cover;
+    }
+    .rank_box {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-flow: column;
+    }
+    .ranking_form {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        height: auto;
+        flex-wrap: nowrap;
+    }
+    .ranking-ob {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: auto;
+        position:relative;
+    }
+    .ranking-value{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 14px;
+        padding-left: 12px;
+    }
+    .ranking-num {
+        width: 16px;
+        height: 16px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .hidden-button {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    
+
+}

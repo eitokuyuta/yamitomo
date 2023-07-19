@@ -1,0 +1,44 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.resetSubmit{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  font: inherit;
+  outline: none;
+}
+.resetSubmit{
+  cursor: pointer;
+}
+input[type="text"] {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background: none;
+}
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"]:checked + label {
+  background: #ff0000;
+}
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"]:checked + label {
+  background: #ff0000;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: transparent;
+}

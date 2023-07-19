@@ -1,0 +1,261 @@
+@media screen and (max-width:1024px)
+{
+    #main {
+        border: none !important;
+        background-color: #c4c0c0ff !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        margin: 0px !important;
+        height: 100%;
+    }
+    #conslation_box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column;
+        align-items: center;
+        padding: 5vw;
+    }
+    #img {
+        width: 80%;
+        height: 41vw;
+        position: relative;
+        top: -1vw;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap: nowrap;
+        background-color: rgba(0, 0, 0, 0.70);
+    }
+    #canvas{
+        display: none;
+    }
+    #conslation {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+        height: 70%;
+    }
+    #side_bar {
+        border: none !important;
+        box-sizing: border-box;
+        background-color: #c4c0c0ff !important;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ads {
+        width: 100%;
+        height: 15vw;
+        background-color: white;
+    }
+    #main {
+        width: 100% !important;
+    }
+    #room_name {
+        width: 100%;
+        height: 8vw;
+        font-size: 15px;
+        margin: 5vw;
+        background-color: white;
+        display: flex;
+        border-radius: 3px;
+    }
+    #consolation_text {
+        margin-top: 16px;
+        width: 100%;
+        height: 40vw;
+    }
+    .resetSubmit {
+        background-color: rgb(76, 153, 245);
+        width: 3vw;
+        height: 2vw;
+        display: flex;
+        flex-flow: nowrap;
+        justify-content: center;
+        align-items: center;
+        outline: 1px solid white;
+        outline-offset: -5px;
+        color: white;
+    }
+    #button_left_label {
+        width: 100%;
+        height: 12vw;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+    #room_img {
+        width: auto;
+        height: 80%;
+    }
+    #file_read{
+        display: none;
+    }
+    label#read_label {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        font-size: 2.8vw;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+    }
+    select#category {
+        margin: 5vw 0vw 3vw 0vw;
+        width: 100%;
+        height: 9.5vw;
+        border-radius: 1vw;
+    }
+    #middle {
+        flex-flow: column !important;
+        height: 100%;
+        background-color: #dee2e6 !important;
+        justify-content: initial;
+        border: none;
+
+    }
+    .form-floating {
+        width: 100%;
+    }
+    #floatingTextarea2 {
+        height: 31vw;
+    }
+    label {
+        font-size: 3vw;
+    }
+    #basic-addon1 {
+        font-size: 3vw;
+    }
+
+}
+@media screen and (min-width:1024px)
+{
+    #middle {
+        align-items: center !important;
+        height: calc(100% - 50px);
+        min-height:unset;
+    }
+    #main {
+    	border: none !important;
+    	background-color: #c4c0c0ff !important;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	margin: 0px !important;
+        min-height:unset;
+    }
+    #conslation_box {
+        background-color: rgb(228, 228, 228);
+        width: 30vw;
+        height: 38vw;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column;
+        align-items: center;
+    }
+    #img {
+        width: 90%;
+        height: 35%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: rgba(0, 0, 0, 0.47);
+        margin-top:1vw;
+    }
+    #conslation {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 90%;
+        height: 60%;
+    }
+    .form-floating {
+        width: 80%;
+    }
+    #floatingTextarea2 {
+        height: 9vw;
+    }
+    .input-group.mb-3 {
+        margin-bottom: 0vw !important;
+    }
+    #side_bar {
+        border: none !important;
+        box-sizing: border-box;
+        background-color: #c4c0c0ff !important;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: unset !important;
+        height: 38vw;
+    }
+    .ads {
+    	width: 9.1vw;
+    	height: 9.3vw;
+    	background-color: white;
+    	margin-top: 1vw;
+    	position: relative;
+    	top: -0.4vw;
+    }
+    #main {
+    	width: 31vw !important;
+    }
+    #room_name {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        border-bottom: solid 1px black;
+    }
+    #consolation_text {
+        margin-top: 16px;
+        width: 100%;
+        height: 8vw;
+        border: solid 1px black;
+    }
+    #button_left_label{
+    	width: 100%;
+    	height: auto;
+    	display: flex;
+    	align-items: end;
+    	justify-content: end;
+    }
+    #room_img {
+        height: 83%;
+        width: auto;
+    }
+    #canvas{
+        display: none;
+    }
+    #file_read{
+    	display: none;
+    }
+    label#read_label {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        font-size: 0.8vw;
+        height: 17%;
+        background-color: rgba(21, 115, 71, 0.66) !important;
+    }
+    select#category {
+        margin: 1vw 0vw 1vw 0vw;
+        width: 100%;
+        height: 1.5vw;
+        border-radius: 1vw;
+    }
+}

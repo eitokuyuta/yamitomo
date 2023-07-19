@@ -1,0 +1,51 @@
+ /*----------------------------------------
+*   検索系　カテゴリー選択系
+----------------------------------------*/
+#category-phone {
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+#serch-phone {
+    width: 95%;
+    background-color: white;
+    border-radius: 3px;
+}
+#phone-form{
+    width:90%;
+    height: auto;
+    /*border-top:dotted 3px rgb(0, 0, 0, 0.2);
+    border-bottom:dotted 3px rgb(0, 0, 0, 0.2);*/
+    padding: 5vw 0vw 0vw 0vw;
+    margin: 0vw 0vw 9vw 0vw;
+}
+#button-addon2{
+    background-color: #157347;
+    color:white;
+}
+.select-box {
+    display: none;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: black;
+    padding: 5vw 0vw 1vw 0vw;
+    border-radius: 5px;
+    margin-top:5vw;
+    position:relative;
+}
+.select-box::after{
+    content: '';
+    border-top: solid 10px transparent;
+    border-right: solid 10px transparent;
+    border-left: solid 10px transparent;
+    border-bottom: solid 10px black;
+    position:absolute;
+    bottom: 100%;
+    left: 3vw;
+}

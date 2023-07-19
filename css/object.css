@@ -1,0 +1,420 @@
+*{
+    font-family:'YuGothic','Hiragino Kaku Gothic ProN';
+}
+body{
+    margin: 0px;
+    background-color: c4c0c0ff !important;
+    height: auto;
+}
+.text-break{
+    overflow: hidden;
+}
+.separate-line {
+    width: 90%;
+    height: 1vw;
+    border-bottom: dotted 3px rgba(0, 0, 0, 0.25);
+    margin-bottom:  10vw;
+}
+@media screen and (max-width:1024px)
+{    
+    #header {
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #626161;
+    }
+    .header-menu {
+        text-decoration: none !important;
+        margin-right: 0.5vw;
+        font-size: 1vw;
+    }
+    #middle {
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        justify-content: flex-start;
+        background-color: #dee2e6;
+    }
+    #main {
+        width: 100%;
+        height: auto;
+        min-height: 100vw;
+        box-sizing: border-box;
+        background-color: #dee2e6;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    #side_bar {
+        width: 190px;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    #footer{
+        width: 100%;
+        height: 50px;
+        border: solid 1px black;
+        box-sizing: border-box;
+    }
+    div#title {
+        margin-left: 4vw;
+        font-size: 6vw;
+        color: white;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 40vw;
+        position: relative;
+        z-index: 1;
+        font-family: 'Comic Sans MS' !important;
+    }
+    div#menu {
+        font-size: 17px;
+        display: flex;
+        flex-flow: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        align-items: ;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    ul.dropdown-menu.show {
+        width: 46vw;
+        height: auto;
+        padding: 3vw;
+    }
+    .dropdown-menu>li{
+        font-size: 4.5vw;
+        margin-bottom: 3vw;
+    }
+    a.btn.btn-primary {
+        margin-left: 1vw;
+    }
+    button#dropdownMenuButton {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(27, 62, 224, 0.96);
+    }
+    a.btn.btn-primary {
+        height: 8vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .link-light{
+      text-decoration: none;
+      color: black !important;
+    }
+    .link-light:hover {
+      text-decoration: none;
+      color: blue;
+    }
+    #title_spread {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 2;
+    }
+    #title_img {
+        height: 7vw;
+        width: auto;
+        z-index: 1;
+    }
+    a.link-light {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    #sns_list {
+        width: 30vw;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .sns_chi {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 7vw;
+        margin-left: 2vw;
+    }
+    .bi-line{
+        color: #00B900;
+    }
+    .bi-twitter{
+        color: #1DA1F2;
+    }
+    .bi-facebook{
+        color: #1877f2;
+    }
+     /*---------------------------------
+    *   チャットページのsnsリンク 
+    ---------------------------------*/
+    .log-sns{
+        width: 96%;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    /*---------------------------------
+    *   ページの紹介 
+    ---------------------------------*/
+    #room_title{
+        width: 90%;
+        height: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        margin: 3vw 0vw 1vw 0vw;
+        font-size: 5.5vw;
+        position:relative;
+    }
+    #hoge {
+        width: auto;
+        height: calc(100% - 1px);
+        /* border: solid; */
+        font-size: 4vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        background: white;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    #hoge:after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-top: solid 5vw transparent;
+        border-right: solid 5vw transparent;
+        border-bottom: solid 5vw transparent;
+        border-left: solid 5vw white;
+        position: absolute;
+        bottom: 0px;
+        left: 100%;
+    }
+    /*---------------------------------
+    *   週間ランキング
+    ---------------------------------*/
+    #otherContain {
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin-bottom: 10vw;
+        border-radius: 5px;
+    }
+    #ot-title {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4vw;
+        color: rgba(0, 0, 0, 0.91);
+        padding: 2vw 0vw;
+        border: solid 1px white;
+        background-color: rgba(255, 228, 180, 0.65);
+    }
+    #otherStrage {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0vw !important;
+        background-color: #dee2e6;
+    }
+    .ot-ranking-piece {
+        list-style: none;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-right:solid 1px white;
+        border-bottom:solid 1px white;
+        border-left:solid 1px white;
+        padding: 1vw;
+        position:relative;
+        overflow: hidden;
+    }
+    .ot-ranking-link {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+    }
+     /*---------------------------------
+    *   ブックマークの色
+    ---------------------------------*/
+    .bi.bi-bookmark-heart-fill {
+        color: red;
+    }
+}
+@media screen and (min-width:1024px)
+{
+    .mb-3 {
+        padding: 5px;
+    }
+    input.form-control {
+        background-color: white;
+    }
+    #header {
+        width: 100%;
+        height: 50px;
+        border: solid 1px black;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #626161;
+        position: relative;
+    }
+    .link-light.header-menu {
+        margin-right: 1vw;
+    }
+    #middle {
+        width: 100%;
+        min-height: 50vw;
+        height: auto;
+        border: solid 1px black;
+        box-sizing: border-box;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        justify-content: center;
+        background-color: #c4c0c0ff;
+    }
+    #main {
+        width: 957px;
+        min-height: 50vw;
+        height: auto;
+        box-sizing: border-box;
+        background-color: #dee2e6;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: 1vw;
+        border: unset;
+        border-radius: 3px;
+    }
+    #side_bar{
+        width: 190px;
+        height: 100%;   
+        box-sizing: border-box;
+        background-color: transparent;
+        margin-top: 1vw;
+
+    } 
+    #footer{
+        width: 100%;
+        height: 50px;
+        border: solid 1px black;
+        box-sizing: border-box;
+    }
+    div#title {
+        margin-left: 30px;
+        font-size: 36px;
+        color: white;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 20vw;
+        position: relative;
+        z-index: 1;
+        font-family: 'Comic Sans MS' !important;
+    }
+    div#menu {
+        margin-right: 30px;
+        font-size: 18px;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    #title_spread {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+    }
+    #title_img {
+        height: 100%;
+        width: auto;
+        z-index: 1;
+    }
+     /*---------------------------------------------
+    *   sns系
+    ---------------------------------------------*/
+    #sns_list {
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-bottom: 1vw;
+
+    }
+    #sns_list>a{
+        color:white !important;
+    }
+    .sns_chi {
+        width: 33%;
+        height: 2.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5vw;
+    }
+    #LINE{
+        background-color: #00B900;
+    }
+    #twitter{
+        background-color: #1DA1F2;
+    }
+    #facebook{
+        background-color: #1877f2;
+    }
+     /*---------------------------------------------
+    *   広告系
+    ---------------------------------------------*/
+    .ad-content{
+        width: 15vw;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: column;
+        background-color: #dee2e6;
+        padding: 2vw 0vw;
+        border-radius: 3px;
+        margin-bottom: 1vw;
+    }
+}

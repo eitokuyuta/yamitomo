@@ -1,0 +1,187 @@
+div#login_title {
+    font-family: 'Comic Sans MS' !important;
+}
+*{
+    font-family:'YuGothic','Hiragino Kaku Gothic ProN';
+}
+@media screen and (max-width:1024px){
+    body {
+    width: 100%;
+    height: 100%;
+    }
+    img.iconImg {
+        width: 10vw;
+        height: auto;
+        box-sizing: border-box;
+    }
+    label#box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        margin-top: 6vw;
+    }
+    form#register {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        z-index: 1;
+    }
+    .iconRadio {
+        display: none;
+    }
+    label.icon {
+        margin: 5px;
+    }
+    input#username {
+        border-bottom: solid 2px blue;
+        width: 60vw;
+        height: 8vw;
+        font-size: 4vw;
+    }
+    label#box2 {
+        margin-top: 6vw;
+    }
+    input.resetSubmit {
+        width: 80px;
+        height: 45px;
+        background-color: lightcoral;
+        outline: 1px solid #FFFFFF;
+        outline-offset: -5px;
+    }
+    div#login_subject {
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    #title-img {
+        width: 50vw;
+        height: auto;
+    }
+    div#sub {
+        font-size: 3vw;
+    }
+    #explain {
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    .explain-body {
+        width: 70vw;
+        height: auto;
+        font-size: 2vw;
+        margin-top: 3vw;
+        color: rgba(0, 0, 0, 0.54);
+    }
+    #index_explain {
+        width: 70vw;
+        height: 20%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        font-size: 3vw;
+        margin-top: 5vw;
+    }
+    .btn.btn-danger {
+        width: 16vw;
+        font-size: 3vw;
+    }
+
+}
+@media screen and (min-width:1024px){
+    img.iconImg {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+
+    }
+    label#box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 38vw;
+        align-items: start;
+        justify-content: flex-start;
+        height: 100%;
+    }
+    form#register {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        z-index: 1;
+        margin-top: 2vw;
+    }
+    .iconRadio {
+        visibility: hidden;
+    }
+    label.icon {
+        margin: 5px 9px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5vw;
+        height: 5vw;
+    }
+    input#username {
+        border-bottom: solid 2px blue;
+        width: 400px;
+        height: 30px;
+    }
+    label#box2 {
+        margin-top: 60px;
+    }
+    input.resetSubmit {
+        width: 80px;
+        height: 45px;
+        background-color: lightcoral;
+        outline: 1px solid #FFFFFF;
+        outline-offset: -5px;
+    }
+    div#login_subject {
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    #title-img {
+        width: 18vw;
+        height: auto;
+    }
+    #explain {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    .explain-body {
+        width: 30vw;
+        height: 80%;
+        font-size: 14px;
+        color: rgb(124, 124, 124);
+    }
+    #index_explain {
+        width: 25vw;
+        height: 20%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        color: rgb(124, 124, 124);
+    }
+}
